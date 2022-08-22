@@ -1,0 +1,21 @@
+.item {
+  padding: 5px 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.item__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item__button-block button {
+  border: 0;
+  background-color: transparent;
+}
+
+.item__button-block button + button {
+  margin-left: 15px;
+}
+
